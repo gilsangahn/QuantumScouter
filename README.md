@@ -10,8 +10,8 @@ Quantum Circuits for Differential Cryptanalysis"**.
 ├── Dockerfile         
 ├── requirements.txt
 ├── datasets/  
-│   ├── SPECK/                   
-│   └── SIMON/
+│   ├── generator_SPECK.py/                   
+│   └── generator_SIMON.py/
 ├── RL_QML/
 │   ├── model_a_definition.ipynb
 │   ├── model_a_excution.ipynb
