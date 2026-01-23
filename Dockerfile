@@ -22,6 +22,8 @@ RUN pip3 install seaborn
 
 RUN pip3 install notebook jupyterlab
 
+RUN pip3 install import-ipynb
+
 ENV JAX_ENABLE_X64=1
 
 WORKDIR /workspace
