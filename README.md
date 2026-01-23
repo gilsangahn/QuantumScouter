@@ -12,6 +12,8 @@ Quantum Circuits for Differential Cryptanalysis"**.
 ├── datasets/  
 │   ├── 01_generator_SPECK.py/                   
 │   └── 02_generator_SIMON.py/
+│   ├── 03_parity.txt/
+│   ├── 04_iris.txt/
 ├── RL_QML/
 │   ├── 01_model_a_definition.ipynb
 │   ├── 02_model_a_excution.ipynb
