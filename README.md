@@ -29,13 +29,13 @@ To ensure reproducibility, we provide both a Docker environment (recommended) an
 ### Option 1: Docker (Recommended)
 We provide a Dockerfile based on `nvidia/cuda:12.2.2` to guarantee the exact GPU environment used in our experiments.
 
-1. Build the image:
+1. Build the image (Don't forget the dot '.' at the end!):
    ```bash
-   docker build -t quantum-scouter .
+   docker build -t quantumscouter .
    
 2. Run the container (with GPU support):
    ```bash
-   docker run --gpus all -it --rm -v $(pwd):/workspace quantum-scouter bash .
+   docker run --gpus all -it --rm -v $(pwd):/workspace quantumscouter bash .
 
 ### Option 2: Manual Installation (pip)
 If you prefer to set up the environment locally, please use Python 3.10+ and CUDA 12.x.
