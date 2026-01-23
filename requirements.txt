@@ -1,7 +1,8 @@
 torch torchvision torchaudio
-pennylane
+pennylane pennylane-lightning[gpu]
 optax scipy matplotlib
 scikit-learn
 pillow
 seaborn
 notebook jupyterlab
+import-ipynb
