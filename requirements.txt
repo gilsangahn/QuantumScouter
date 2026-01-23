@@ -1,0 +1,7 @@
+torch torchvision torchaudio
+pennylane
+optax scipy matplotlib
+scikit-learn
+pillow
+seaborn
+notebook jupyterlab
