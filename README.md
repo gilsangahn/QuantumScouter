@@ -24,4 +24,11 @@ Quantum Circuits for Differential Cryptanalysis"**.
 ```
 ## Requirements
 
-You can set up the environment manually via `pip` or use the provided Docker image for a reproducible environment.
+To ensure reproducibility, we provide both a Docker environment (recommended) and a requirements file.
+
+### Option 1: Docker (Recommended)
+We provide a Dockerfile based on `nvidia/cuda:12.2.2` to guarantee the exact GPU environment used in our experiments.
+
+1. Build the image:
+   ```bash
+   docker build -t quantum-scouter .
