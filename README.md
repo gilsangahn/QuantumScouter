@@ -14,13 +14,17 @@ Quantum Circuits for Differential Cryptanalysis"**.
 │   └── 02_generator_SIMON.py/
 │   ├── 03_parity.txt/
 │   ├── 04_iris.txt/
-├── RL_QML/
+├── experiments/
 │   ├── 01_model_a_definition.ipynb
 │   ├── 02_model_a_excution.ipynb
 │   ├── 03_model_b_definition.ipynb
 │   ├── 04_model_b_excution.ipynb 
-│   ├── 05_model_c_definition.ipynb                    
-│   └── 06_model_c_excution.ipynb
+│   ├── 05_model_c_definition.ipynb
+│   ├── 06_model_c_excution.ipynb
+│   ├── 07_parity_definition.ipynb
+│   ├── 08_parity_excution.ipynb
+│   ├── 09_iris_definition.ipynb                   
+│   └── 10_iris_excution.ipynb
 └── evaluation/  
     └── eval.ipynb            
 ```
