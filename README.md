@@ -15,11 +15,11 @@ Quantum Circuits for Differential Cryptanalysis"**.
 │   ├── 03_parity.txt/
 │   ├── 04_iris.txt/
 ├── experiments/
-│   ├── 01_model_a_definition_execution(SEL+QCNN).ipynb
-│   ├── 02_model_b_definition(SEL+RL).ipynb
-│   ├── 03_model_b_execution((SEL+RL).ipynb 
-│   ├── 04_model_c_definition(RL).ipynb
-│   ├── 05_model_c_execution(RL).ipynb
+│   ├── 01_model_a_definition_execution_sel_qcnn.ipynb
+│   ├── 02_model_b_definition_sel_rl.ipynb
+│   ├── 03_model_b_execution_sel_rl.ipynb 
+│   ├── 04_model_c_definition_rl.ipynb
+│   ├── 05_model_c_execution_rl.ipynb
 │   ├── 06_parity_definition.ipynb
 │   ├── 07_parity_execution.ipynb
 │   ├── 08_iris_definition.ipynb                   
