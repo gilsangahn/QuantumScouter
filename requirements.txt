@@ -1,8 +1,30 @@
-torch torchvision torchaudio
-pennylane pennylane-lightning[gpu]
-optax scipy matplotlib
+# CUDA 12.1 compatible wheels for PyTorch
+--extra-index-url https://download.pytorch.org/whl/cu121
+# JAX GPU releases
+--find-links https://storage.googleapis.com/jax-releases/jax_cuda_releases.html
+
+# Core Frameworks (GPU versions enabled by urls above)
+torch
+torchvision
+torchaudio
+jax[cuda12_pip]==0.4.33
+
+# Quantum Libraries
+pennylane
+pennylane-lightning[gpu]
+
+# Scientific & Optimization
+optax
+scipy
 scikit-learn
-pillow
+numpy
+
+# Visualization & Notebook
+matplotlib
 seaborn
-notebook jupyterlab
+pillow
+notebook
+jupyterlab
+
+# Utilities
 import-ipynb
