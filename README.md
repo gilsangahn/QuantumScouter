@@ -32,3 +32,12 @@ We provide a Dockerfile based on `nvidia/cuda:12.2.2` to guarantee the exact GPU
 1. Build the image:
    ```bash
    docker build -t quantum-scouter .
+   
+2. Run the container (with GPU support):
+   ```bash
+   docker run --gpus all -it --rm -v $(pwd):/workspace quantum-scouter bash .
+
+### Option 2: Manual Installation (pip)
+If you prefer to set up the environment locally, please use Python 3.10+ and CUDA 12.x.
+```bash
+pip install -r requirements.txt .
