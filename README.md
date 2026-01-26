@@ -10,20 +10,20 @@ Quantum Circuits for Differential Cryptanalysis"**.
 ├── Dockerfile         
 ├── requirements.txt
 ├── datasets/  
-│   ├── 01_generator_speck.py/                   
-│   └── 02_generator_simon.py/
-│   ├── 03_parity.txt/
-│   ├── 04_iris.txt/
+│   ├── generator_speck.py/                   
+│   └── generator_simon.py/
+│   ├── parity.txt/
+│   ├── iris.txt/
 ├── experiments/
-│   ├── 01_model_a_definition_execution_sel_qcnn.ipynb
-│   ├── 02_model_b_definition_sel_rl.ipynb
-│   ├── 03_model_b_execution_sel_rl.ipynb 
-│   ├── 04_model_c_definition_rl.ipynb
-│   ├── 05_model_c_execution_rl.ipynb
-│   ├── 06_parity_definition.ipynb
-│   ├── 07_parity_execution.ipynb
-│   ├── 08_iris_definition.ipynb                   
-│   └── 09_iris_execution.ipynb
+│   ├── model_a_definition_execution_sel_qcnn.ipynb
+│   ├── model_b_definition_sel_rl.ipynb
+│   ├── model_b_execution_sel_rl.ipynb 
+│   ├── model_c_definition_rl.ipynb
+│   ├── model_c_execution_rl.ipynb
+│   ├── parity_definition.ipynb
+│   ├── parity_execution.ipynb
+│   ├── iris_definition.ipynb                   
+│   └── iris_execution.ipynb
 └── evaluation/  
     └── eval.ipynb            
 ```
