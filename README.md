@@ -6,9 +6,9 @@ Quantum Circuits for Differential Cryptanalysis"**.
 
 ## 📌 Overview
 QuantumScouter is a novel framework that utilizes **Deep Reinforcement Learning (DRL)** to automatically optimize the architecture of Variational Quantum Circuits (VQC) for cryptographic tasks. This repository includes:
-- **Model A**: Quantum CNN (QCNN) based on Supervised Entanglement Learning (SEL).
-- **Model B (Proposed)**: A hybrid approach combining RL with Transfer Learning from SEL.
-- **Model C (Baseline)**: A Pure RL approach training from scratch without transfer learning.
+- **Model A (Baseline)**: Quantum CNN (QCNN) based on Supervised Entanglement Learning (SEL).
+- **Model B**: A hybrid approach combining RL with Transfer Learning from SEL.
+- **Model C**: A Pure RL approach training from scratch without transfer learning.
 - **Generalization Tests**: Experiments on Parity and Iris datasets to verify versatility.
 
 ---
