@@ -34,7 +34,7 @@ QuantumScouter is a novel framework that utilizes **Deep Reinforcement Learning 
 │   ├── iris_definition.ipynb                   
 │   └── iris_execution.ipynb
 └── evaluation/  
-    └── eval.ipynb            
+    └── qs_evaluation.ipynb            
 ```
 ---
 
